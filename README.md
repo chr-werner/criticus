@@ -4,6 +4,12 @@ Some of the tools already exist as CLI's that I have made, but here are are coll
 
 (Note: Criticus was formerly known as Tendon. I needed to change the name so that I could publish to PYPI).
 
+## TL;DR for this fork
+
+As `PySimpleGUI` (named `pg` in the source code) went 'pro' and i do not want to create a user account, i opted to adjust the scripts i use to not use `pg`. 
+You will find those scripts in the `criticus_cli` directory.
+
+
 ## The Problem I'm trying to Solve
 The standard tool for transcribing ancient New Testament manuscripts ([ITSEE's OTE](https://itsee-wce.birmingham.ac.uk/ote/transcriptiontool)) produces files in an entirely different format from that required by the standard tool for collating these transcriptions ([the WCE Collation Editor](https://github.com/itsee-birmingham/standalone_collation_editor)).
 

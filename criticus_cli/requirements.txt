@@ -1,0 +1,3 @@
+lxml
+natsort==8.4.0
+pandas==2.2.3
