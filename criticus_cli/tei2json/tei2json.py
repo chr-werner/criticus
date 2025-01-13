@@ -1,6 +1,7 @@
 import argparse
-import os
 import json
+import os
+
 import lxml.etree as et
 from from_tei import (
     add_underdot_to_unclear_letters,
@@ -66,7 +67,6 @@ def tei_to_json(tei: str, output_dir, single_verse: str, siglum_suffix: str):
     with open(f, "w", encoding="utf-8") as file:
         json.dump(metadata, file, ensure_ascii=False)
     return True
-
 
 
 def process_files(in_dir, out_dir, siglum_suffixes):
